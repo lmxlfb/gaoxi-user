@@ -10,7 +10,11 @@
 	<packaging>jar</packaging>
 	<name>springboot-helloworld</name>
 	<description>Demo project for Spring Boot</description>
-
+<parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.4.1.RELEASE</version>
+</parent>
 	<!--依赖管理 -->
 	<dependencies>
 		<!-- 添加WEB支持 -->
